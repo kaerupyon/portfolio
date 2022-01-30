@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script>
+    $(function() {
+      const hum = $('#hamburger, .close')
+      const nav = $('.sp-nav')
+      hum.on('click', function(){
+         nav.toggleClass('toggle');
+      });
+    });
+    </script>
+</head>
+
+<body>
+  <header id="top">
+
+      <nav class="pc-nav">
+         <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+         </ul>
+      </nav>
+      <nav class="sp-nav">
+         <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="close"><span>閉じる</span></li>
+         </ul>
+      </nav>
+      <div id="hamburger">
+         <span></span>
+      </div>
+   </header>
+
+   <div class="main-visual">
+        <div class="img-wrap">
+            <img src="images/logo.svg" alt="">
+        </div>
+   </div>
+
+
+
+
+
+    <section id="products">
+        <div class="box">
+            <div class="title">
+                <h2>Products</h2>
+                <p>制作したもの</p>
+            </div>
+
+            <div class="contents">
+
+                <div class="products_flex">
+                    <a href=""><img src="images/キャプチャ3.PNG" alt=""></a>
+                    <a href=""><img src="images/キャプチャ3.PNG" alt=""></a>
+                    <a href=""><img src="images/キャプチャ3.PNG" alt=""></a>
+                    <a href=""><img src="images/キャプチャ3.PNG" alt=""></a>
+                    <a href=""><img src="images/キャプチャ3.PNG" alt=""></a>
+                    <a href=""><img src="images/キャプチャ3.PNG" alt=""></a>
+                </div>
+
+                <a href="products.html">
+                    <button class="cta">
+                        <span>more</span>
+                        <svg width="15px" height="10px" viewBox="0 0 13 10">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                    </button>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="box">
+            <div class="title">
+                <h2>About</h2>
+                <p>私について</p>
+            </div>
+
+            <div class="contents">
+                <div class="about_flex">
+
+                    <div class="my_img">
+                        <img src="images/about.svg" alt="">
+                    </div>
+
+                    <div class="text">
+                        <p class="name">米山 莉奈</p>
+                        <p class="intro">短期大学卒業後、楽器店にて楽器の修理や販売、
+                        <br>音楽教室や音楽イベント運営の仕事をしてきました。
+                        <br>現在はアイ・アイ・ピー金沢近岡校で
+                        <br>webデザイン科の職業訓練を受講しています。</p>
+
+                    </div>
+
+                </div>
+
+                <a href="about.html">
+                    <button class="cta">
+                        <span>more</span>
+                        <svg width="15px" height="10px" viewBox="0 0 13 10">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                    </button>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <small>&copy; Rina Yoneyama</small>
+    </footer>
+
+
+</body>
