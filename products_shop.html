@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/products_shop.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script>
+    $(function() {
+      const hum = $('#hamburger, .close')
+      const nav = $('.sp-nav')
+      hum.on('click', function(){
+         nav.toggleClass('toggle');
+      });
+    });
+    </script>
+</head>
+
+<body>
+  <header id="top">
+
+      <nav class="pc-nav">
+         <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="products.html">products</a></li>
+            <li><a href="about.html">About</a></li>
+         </ul>
+      </nav>
+      <nav class="sp-nav">
+         <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="products.html">products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="close"><span>閉じる</span></li>
+         </ul>
+      </nav>
+      <div id="hamburger">
+         <span></span>
+      </div>
+   </header>
+
+   <section class="shop_top">
+       <div class="page_title">
+           <h1>ショップカード</h1>
+       </div>
+    
+        <div class="main_img">
+            <img src="images/img_shop.png" alt="">
+        </div>
+    
+        <div class="page_text">
+            <p>訓練校の制作課題で作成したショップカードです。
+            <br>既存のロゴを用いて、お店の雰囲気を考えながらデザインしました。</p>
+        </div>
+   </section>
+
+
+    <section class="view_area">
+
+        <div class="view_flex">
+
+            <div class="short_flex">
+                <div class="short_img">
+                    <img src="images/view_shop1.svg" alt="">
+                </div>
+
+                <div class="short_text">
+                    <h3>タイトル</h3>
+                    <p>ロゴデザインについて</p>
+                </div>
+            </div>
+
+            <div class="short_flex reverse">
+                <div class="short_img">
+                    <img src="images/view_shop2.svg" alt="">
+                </div>
+
+                <div class="short_text">
+                    <h3>タイトル</h3>
+                    <p>ロゴデザインについて</p>
+                </div>
+            </div>
+
+            <div class="short_flex">
+                <div class="short_img">
+                    <img src="images/view_shop3.svg" alt="">
+                </div>
+
+                <div class="short_text">
+                    <h3>タイトル</h3>
+                    <p>ロゴデザインについて</p>
+                </div>
+            </div>
+
+            <div class="short_flex reverse">
+                <div class="short_img">
+                    <img src="images/view_shop4.svg" alt="">
+                </div>
+
+                <div class="short_text">
+                    <h3>タイトル</h3>
+                    <p>ロゴデザインについて</p>
+                </div>
+            </div>
+
+                
+ 
+        </div>
+    </section>
+
+
+
+    <footer>
+        <small>&copy; Rina Yoneyama</small>
+    </footer>
+
+
+</body>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/products_nyanya.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script>
+    $(function() {
+      const hum = $('#hamburger, .close')
+      const nav = $('.sp-nav')
+      hum.on('click', function(){
+         nav.toggleClass('toggle');
+      });
+    });
+    </script>
+</head>
+
+<body>
+  <header id="top">
+
+      <nav class="pc-nav">
+         <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="products.html">products</a></li>
+            <li><a href="about.html">About</a></li>
+         </ul>
+      </nav>
+      <nav class="sp-nav">
+         <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="products.html">products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="close"><span>閉じる</span></li>
+         </ul>
+      </nav>
+      <div id="hamburger">
+         <span></span>
+      </div>
+   </header>
+
+   <section class="nyanya_top">
+       <div class="page_title">
+           <h1>猫カフェのWebサイト</h1>
+       </div>
+
+        <div class="main_img">
+            <img src="images/img_nyanya.jpg" alt="">
+        </div>
+
+        <div class="page_text">
+            <p>私があったらいいなあと思う猫カフェの架空サイトです。
+            <br>自分の願望を詰め込んだ内容、デザインなので制作がとても楽しかったです。</p>
+        </div>
+   </section>
+
+
+    <section class="view_area">
+
+        <div class="view_flex">
+
+                <div class="long">
+                    <img src="images/view_nyanya.jpg" alt="">
+                </div>
+
+                <div class="long_text">
+                    <h3>デザインテイスト</h3>
+                    <p>「猫カフェでゆったりとした時間を過ごす」をテーマにデザインしました。時間がゆっくり流れるイメージを滑らかな曲線を用いて表現しました。
+                    <br>
+                    <br>セクションを区切るなみなみはサイト上ではゆっくりと動くように設定しました。</p>
+
+                    <h3>イメージカラー</h3>
+                    <p>猫ちゃんの愛らしさを表現するために、ベースカラーは「白」、サブカラーは「ピンク」、アクセントカラーは「茶色」に設定しました。</p>
+
+                    <h3>猫のイラスト</h3>
+                    <p>今回はIllustratorを使用して猫のイラストに挑戦しました。猫ちゃんは模写です。机、テーブル、キャットタワーは自分で１から考えて描く事ができました。物のサイズを考えながらバランスの良い絵を描くことに苦手意識を持っていましたが、挑戦できてよかったです。</p>
+
+                    <h3>ヘッダーとタイトル</h3>
+                    <p>ヘッダーのナビゲーションはおしゃれさを意識して英語にしましたが、セクションごとのタイトルは英語と日本語の両方を表示することで閲覧者が英語に混乱して途中で離脱しないよう配慮しました。</p>
+
+                    <h3>コメント</h3>
+                    <p>自分の思う一番素敵な猫カフェをデザインできました。こんな猫カフェがいいなと思いながらデザインをしていると、追加したい要素がどんどん増えて大変な反面、思い通りにコーディングができると、とても嬉しい気持ちになりました。好きなことをデザインするのはとても楽しかったです。
+                    <br>
+                    <br>猫の他にも自分の「好き」をデザインして、色々なテイストのWebサイトを作ってみたいと思いました。
+
+                </div>
+
+        </div>
+    </section>
+
+
+
+    <footer>
+        <small>&copy; Rina Yoneyama</small>
+    </footer>
+
+
+</body>

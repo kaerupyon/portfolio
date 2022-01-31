@@ -369,10 +369,21 @@ li:hover {
    gap: 2em;
    padding: 2em 0;
    flex-shrink: 1;
-   margin-bottom: 2em;
+   margin-bottom: 6em;
+   margin-top: 6em;
 }
 .products_flex a {
-   width: auto;
+   width: 360px;
+   height: 220px;
+   background-color: #d7e8ec;
+}
+.products_flex img {
+   height: 85%;
+   background-color: #ffffff;
+   margin: 16.5px auto;
+}
+.products_flex a:hover {
+   opacity: 0.5;
 }
 /* Productsここまで */
 

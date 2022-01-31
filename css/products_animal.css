@@ -211,6 +211,7 @@ li:hover {
 }
 .long img {
    width: 100%;
+   box-shadow:2px 2px 5px #c2c2c2;
 }
 .long_text {
    width: 40%;
@@ -226,7 +227,7 @@ li:hover {
 }
 .long_text p {
    margin-top: 0.2em;
-   margin-bottom: 0;
+   margin-bottom: 12em;
    font-size: 1em;
    padding-left: 1.1em;
 }
@@ -246,6 +247,9 @@ li:hover {
    .long_text {
       width: 100%;
       text-align: left;
+   }
+   .long_text p {
+      margin-bottom: 2em;
    }
 }
 /* view_area */
