@@ -213,9 +213,11 @@ li:hover {
    display: flex;
    align-items: center;
    justify-content: center;
+   margin-bottom: 2em;
 }
 .reverse {
    flex-flow: row-reverse;
+   margin-bottom: 5em;
 }
 .short_img {
    width: 50%;
@@ -227,6 +229,7 @@ li:hover {
 .short_text {
    width: 40%;
    text-align: left;
+   margin-bottom: 2em;
 }
 .reverse .short_text {
    padding-left: 4em;

@@ -227,6 +227,7 @@ li:hover {
 .short_text {
    width: 40%;
    text-align: left;
+   margin-bottom: 3em;
 }
 .reverse .short_text {
    padding-left: 4em;
@@ -234,6 +235,7 @@ li:hover {
 .short_text h3 {
    margin-bottom: 0;
    font-size: 1em;
+   margin-top: 2em;
 }
 .short_text h3::before {
    content: "●";
